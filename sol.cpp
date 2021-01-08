@@ -14,7 +14,7 @@ int main() {
 		// there are only 4 possible coordinates, check in the image attached in this repository
 		int position = k % 4;
 		if (x == y) { 
-			// if x == y then naturally, it will end it in the pocket hole
+			// if x == y then naturally, it will end in the pocket hole
 			// this condition is the only way to get into the pocket hole since
 			// the restriction is that the shot will always be in 45 degrees
 			cout << n << " " << n;
